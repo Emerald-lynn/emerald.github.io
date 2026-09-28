@@ -1,1 +1,140 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f5f5f5;
+    color: #333;
+}
 
+nav {
+    background-color: black;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    text-align: center;
+    padding: 30px;
+}
+
+main h1 {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    
+}
+main{
+    text-align: center;
+}
+
+main figure {
+    display: inline-block;
+    vertical-align: top;
+    width: 250px;
+    margin: 10px;
+}
+
+main figure img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    margin: 10px;
+    border-radius: 8px;
+}
+
+main p {
+    font-size: 18px;
+    line-height: 1.6;
+    font-style: italic;
+    text-align: center;
+    margin-top: 70px;
+}
+/*about*/
+
+.about-page h1{
+    text-align: left;
+    line-height: 30px;
+    padding: 10px;
+    border:50px;
+    background-color: grey;
+    
+}
+.about-page p{
+    text-align: left;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 2;
+    font-style: normal;
+    color:black;
+    padding: 15px;
+    border:5px;
+}
+.about-page h2{
+    text-align: left;
+    margin-bottom: 30px;
+    padding:10px;
+    border:50px;
+    background-color: grey;
+    font-color: black;
+}
+.about-page ul{
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    color:black;
+    line-height: 2;
+}
+/*Location*/
+
+.location-page img{
+    width: 500px;
+    height: 300px;
+    display: block;
+    margin: auto;
+}
+.figure-caption p{
+    text-align: center;
+}
+.location-page h1{
+    text-align: left;
+    color:black;
+    margin-bottom: auto;
+}
+.location-page p{
+    text-align: left;
+    font-size: 18px;
+    font-style: normal;
+    font-family: 'Times New Roman', Times, serif;
+}
+.location-page h3{
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+}
+.location-page li{
+    text-align: left;
+    line-height: 2;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
